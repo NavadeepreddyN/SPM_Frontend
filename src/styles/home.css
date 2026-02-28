@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.home-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4e73df, #1cc88a);
+}
+
+.home-card {
+  background: white;
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+  width: 450px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.home-card h1 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.home-card p {
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-group button {
+  width: 45%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  color: white;
+}
+
+.student-btn {
+  background: #4e73df;
+}
+
+.student-btn:hover {
+  background: #2e59d9;
+  transform: scale(1.05);
+}
+
+.teacher-btn {
+  background: #e74a3b;
+}
+
+.teacher-btn:hover {
+  background: #c0392b;
+  transform: scale(1.05);
+}

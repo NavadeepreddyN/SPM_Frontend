@@ -1,0 +1,72 @@
+.student-dashboard {
+  padding: 40px;
+  background: #f4f6f9;
+  min-height: 100%;
+}
+
+/* Header */
+.dashboard-header {
+  margin-bottom: 40px;
+}
+
+.dashboard-header h1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.dashboard-header p {
+  color: #64748b;
+  font-size: 14px;
+}
+
+/* Stats Grid */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+/* Cards */
+.stat-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+  transition: 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-4px);
+}
+
+.stat-card h3 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Placeholder */
+.stat-placeholder {
+  padding: 25px;
+  border: 2px dashed #cbd5e1;
+  border-radius: 10px;
+  text-align: center;
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+/* Activity Section */
+.activity-section h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.activity-box {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+  color: #94a3b8;
+  text-align: center;
+}
