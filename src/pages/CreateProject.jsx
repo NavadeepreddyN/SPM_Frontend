@@ -1,7 +1,7 @@
 const CreateProject = () => {
   return (
     <div>
-      <h2>Create Project</h2>
+      <h2>Create Project</h2>git init
       <p>Project creation form will be here.</p>
     </div>
   );
